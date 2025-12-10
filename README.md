@@ -18,9 +18,14 @@ rayansullivan/cesiumapartment:latest
 
 2. **运行容器**
 
+   命令行方式：
    ```sh
    docker run -p 3000:3000 rayansullivan/cesiumapartment:latest
    ```
+
+   或者在 Docker Desktop 图形界面运行时，**请务必在 Optional settings 里添加端口映射**：
+   - Host port: `3000`
+   - Container port: `3000`
 
 3. **访问应用**
 
